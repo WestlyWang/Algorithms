@@ -1,4 +1,12 @@
 <?php
+	/**
+	  *x : 字符串1
+	  *y : 字符串2
+	  *dismatch_cost : 不匹配的代价
+	  *gap_cost : 添加gap的代价
+	  *newx : 最优匹配的x
+	  *newy : 最优匹配的y
+	  */
 	function opt($x,$y,$dismatch_cost,$gap_cost,&$newx,&$newy){
 		$xarray = str_split($x);//字符串转数组
 		$yarray = str_split($y);

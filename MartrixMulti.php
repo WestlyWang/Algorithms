@@ -73,7 +73,7 @@
 		$arr_martrixs[3] = array(30,12);
 		$arr_martrixs[4] = array(12,8);
 		$len = count($arr_martrixs);
-		calc($arr_martrixs,$len);
+		calc($arr_martrixs,$len);//arr_martrixs 代表矩阵链的行列值，len是矩阵链的长度
 	}
 	run();
 ?>
